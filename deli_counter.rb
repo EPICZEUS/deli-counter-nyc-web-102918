@@ -9,6 +9,7 @@ def line(arr)
     arr.each_with_index {|ele, i| out << "#{i + 1}. #{ele}"}
     
     "The line is currently: #{out.join(" ")}"
+  end
 end
 
 def take_a_number(arr, name)
